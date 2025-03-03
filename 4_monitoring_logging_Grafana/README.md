@@ -2,7 +2,7 @@
 
 In this section are presented the images of steps where the web application used in the previous tasks was also used for monitoring and logging through Grafana and Prometheus tools.
 
-Since we have already created the cluster in AKS, then there I initialized the helm charts and repos of Grafana and Prometheus and then through port-forwarding on certain ports I accessed them through the browser with localhost.
+Since we have already created the cluster in AKS, then there I initialized the helm charts and repos of Grafana and Prometheus and then with the process of port-forwarding on certain ports I accessed them through the browser with localhost.
 
 However, it should be noted that some additions had to be made to the configurations of both the app.js of the application and its deployment in the cluster by adding the parts of the endpoint "/metrics", as well as prom-client which is the Prometheus library for NodeJS.
 

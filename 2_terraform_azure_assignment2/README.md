@@ -1,6 +1,6 @@
 ## Second Assignment documentation
 
-Here are the solutions to the tasks required with Terraform, first we have the configuration of the Remote state blob storage account.
+Here are the solutions to the tasks required with Terraform, first I have the configuration of the Remote state blob storage account to finish.
 
 Then we have the creation of the AKS Cluster and ACR for storing the Docker image in it, also the deployment of the application in the cluster where we can see that the pods are running and the service has received an external-IP successfully so everything is in order.
 
@@ -35,6 +35,8 @@ Each pictures gives the steps that were taken for all this to happen.
 ![Picture 13](/2_terraform_azure_assignment2/img/Screenshot%202025-03-01%20132048.png)
 
 ![Picture 14](/2_terraform_azure_assignment2/img/Screenshot%202025-03-01%20150702.png)
+
+![Picture 14.1](/2_terraform_azure_assignment2/img/image.png)
 
 ![Picture 15](/2_terraform_azure_assignment2/img/Screenshot%202025-03-01%20154818.png)
 
